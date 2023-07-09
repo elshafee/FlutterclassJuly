@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterclassjuly/utils/drawe.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -13,9 +14,12 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Home Screen"),
-        automaticallyImplyLeading: false,
         centerTitle: true,
         backgroundColor: Colors.deepPurple[200],
+      ),
+      drawer: Drawe(),
+      body: Center(
+        child: Text("Any Questions??\n Good Nighht "),
       ),
     );
   }
