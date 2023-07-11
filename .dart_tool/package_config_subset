@@ -30,6 +30,10 @@ flutter_lints
 2.18
 file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/flutter_lints-2.0.2/
 file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/flutter_lints-2.0.2/lib/
+fluttertoast
+2.12
+file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/fluttertoast-8.2.2/
+file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/fluttertoast-8.2.2/lib/
 js
 2.19
 file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/js-0.6.7/
@@ -78,6 +82,10 @@ test_api
 2.18
 file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/test_api-0.6.0/
 file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/test_api-0.6.0/lib/
+transition
+2.12
+file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/transition-2.0.2/
+file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/transition-2.0.2/lib/
 vector_math
 2.14
 file:///Users/ahmadelshafee/.pub-cache/hosted/pub.dev/vector_math-2.1.4/
@@ -98,4 +106,8 @@ flutter_test
 3.0
 file:///Users/ahmadelshafee/developer/flutter/packages/flutter_test/
 file:///Users/ahmadelshafee/developer/flutter/packages/flutter_test/lib/
+flutter_web_plugins
+3.0
+file:///Users/ahmadelshafee/developer/flutter/packages/flutter_web_plugins/
+file:///Users/ahmadelshafee/developer/flutter/packages/flutter_web_plugins/lib/
 2

@@ -10,3 +10,4 @@ com.example.flutterclassjuly.app-rs-8 /Users/ahmadelshafee/Documents/GitHub/Flut
 com.example.flutterclassjuly.app-mergeDebugResources-9 /Users/ahmadelshafee/Documents/GitHub/FlutterclassJuly/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
 com.example.flutterclassjuly.app-mergeDebugResources-10 /Users/ahmadelshafee/Documents/GitHub/FlutterclassJuly/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
 com.example.flutterclassjuly.app-merged_res-11 /Users/ahmadelshafee/Documents/GitHub/FlutterclassJuly/build/app/intermediates/merged_res/debug
+com.example.flutterclassjuly.app-packaged_res-12 /Users/ahmadelshafee/Documents/GitHub/FlutterclassJuly/build/fluttertoast/intermediates/packaged_res/debug

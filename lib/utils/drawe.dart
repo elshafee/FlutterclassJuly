@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutterclassjuly/bmi_calculator/bmi_calculator.dart';
+import 'package:transition/transition.dart';
 
 class Drawe extends StatefulWidget {
   const Drawe({super.key});
@@ -22,7 +24,27 @@ class _DraweState extends State<Drawe> {
           ),
           ListTile(
             title: Text("Home Screen"),
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context).pushNamed('/home');
+            },
+            splashColor: Colors.deepPurple[100],
+          ),
+          ListTile(
+            title: Text("Bottom Navigation Screen"),
+            onTap: () {
+              Navigator.of(context).pushNamed('/bottom');
+            },
+            splashColor: Colors.deepPurple[100],
+          ),
+          ListTile(
+            title: Text("BMI Calculator"),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  Transition(
+                      child: BMICalculator(),
+                      transitionEffect: TransitionEffect.FADE));
+            },
             splashColor: Colors.deepPurple[100],
           ),
         ],
