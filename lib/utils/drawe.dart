@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterclassjuly/bmi_calculator/bmi_calculator.dart';
+import 'package:flutterclassjuly/general_ui/exapnd_with_wrap.dart';
 import 'package:transition/transition.dart';
 
 class Drawe extends StatefulWidget {
@@ -43,6 +44,17 @@ class _DraweState extends State<Drawe> {
                   context,
                   Transition(
                       child: BMICalculator(),
+                      transitionEffect: TransitionEffect.FADE));
+            },
+            splashColor: Colors.deepPurple[100],
+          ),
+          ListTile(
+            title: const Text("Expand Example"),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  Transition(
+                      child: const ExpandExample(),
                       transitionEffect: TransitionEffect.FADE));
             },
             splashColor: Colors.deepPurple[100],
