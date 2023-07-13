@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterclassjuly/api_app/breaking_bad_app/ui/breaking_bad.dart';
 import 'package:flutterclassjuly/bmi_calculator/bmi_calculator.dart';
 import 'package:flutterclassjuly/general_ui/exapnd_with_wrap.dart';
 import 'package:transition/transition.dart';
@@ -55,6 +56,17 @@ class _DraweState extends State<Drawe> {
                   context,
                   Transition(
                       child: const ExpandExample(),
+                      transitionEffect: TransitionEffect.FADE));
+            },
+            splashColor: Colors.deepPurple[100],
+          ),
+          ListTile(
+            title: const Text("Breaking Bad App"),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  Transition(
+                      child: const BreakingBadApp(),
                       transitionEffect: TransitionEffect.FADE));
             },
             splashColor: Colors.deepPurple[100],
